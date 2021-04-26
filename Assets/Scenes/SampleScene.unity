@@ -215,12 +215,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351351601}
-  m_LocalRotation: {x: -0, y: -0, z: 0.2482108, w: 0.96870613}
-  m_LocalPosition: {x: -0.028848125, y: 0.16513066, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.23145016, w: 0.9728468}
+  m_LocalPosition: {x: -0.029999971, y: -1.44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 874357629}
-  m_RootOrder: 3
+  m_Father: {fileID: 732288096}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 26.765001}
 --- !u!212 &351351603
 SpriteRenderer:
@@ -441,6 +441,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 874357629}
+  - {fileID: 351351602}
+  - {fileID: 1639058313}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -612,7 +614,6 @@ GameObject:
   m_Component:
   - component: {fileID: 874357629}
   - component: {fileID: 874357630}
-  - component: {fileID: 874357631}
   m_Layer: 0
   m_Name: ninjaCharacter_body
   m_TagString: Untagged
@@ -634,8 +635,6 @@ Transform:
   - {fileID: 123923703}
   - {fileID: 947770567}
   - {fileID: 748768368}
-  - {fileID: 351351602}
-  - {fileID: 1639058313}
   m_Father: {fileID: 732288096}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.978}
@@ -687,25 +686,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &874357631
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 874357628}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 750f54d826a43164e823f4afb1e9ce9a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &947770566
 GameObject:
   m_ObjectHideFlags: 0
@@ -866,12 +846,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639058312}
-  m_LocalRotation: {x: -0, y: -0, z: -0.19433752, w: 0.9809348}
-  m_LocalPosition: {x: 0.071437396, y: 0.15858889, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.2112433, w: 0.97743356}
+  m_LocalPosition: {x: 0.06999993, y: -1.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 874357629}
-  m_RootOrder: 4
+  m_Father: {fileID: 732288096}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -24.390001}
 --- !u!212 &1639058314
 SpriteRenderer:
